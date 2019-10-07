@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="posit.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Calculator by Avisa stager (nrz)</h2>
+            <div class="calculator">
+                <div class="numbers">
+                    <form>
+                        <label for="first">First:</label><input type="text" id="first">
+                        <label for="second">Second:</label><input id="second">
+                    </form>
+                </div>
+                <div class="operations">
+                    <button onclick="sum()">+</button>
+                    <button onclick="sub()">-</button>
+                    <button onclick="pro()">*</button>
+                    <button onclick="div()">/</button>
+                    <button onclick="equal()">=</button>
+                </div>
+                <div class="answer">
+                    <input id="answer" type="text" readonly>
+                </div>
+            </div><!--Calculator-->
+            <script src="test.js"></script>
+        </div><!--Container-->
+    </body>
+</html>
